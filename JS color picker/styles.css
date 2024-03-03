@@ -1,0 +1,39 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    text-align: center;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 400px;
+    margin: auto;
+}
+#select-color{
+    background-color: rgba(71, 70, 50, 0.7);
+    width: 400px;
+    margin: 200px auto 0 auto;
+    border-radius: 4px;
+    padding: 10px;
+}
+#select-color input[type = range]{
+    width: 100%;
+}
+
+#select-color .btn{
+    text-align: center;
+}
+.btn .random-btn{
+    border-radius: 3px;
+    background-color: blanchedalmond;
+    padding: 10px 15px;
+    border: none;
+}
+.btn .random-btn:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    width: 60%;
+    transition: 0.4s;
+}
